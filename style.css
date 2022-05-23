@@ -1,0 +1,86 @@
+:root {
+  /* Colors */
+  --color-primary: hsl(160deg, 100%, 30%);
+  --color-secondary-lighter: hsl(45deg, 100%, 50%);
+  --color-secondary-darker: hsl(45deg, 100%, 40%);
+  --color-gray-black: hsl(0deg, 0%, 0%);
+  --color-gray-very-dark: hsl(0deg, 0%, 10%);
+  --color-gray-dark: hsl(0deg, 0%, 30%);
+  --color-gray-medium: hsl(0deg, 0%, 40%);
+  --color-gray-light: hsl(0deg, 0%, 60%);
+  --color-gray-white: hsl(0deg, 0%, 100%);
+
+  /* Font sizes */
+  --font-size-base: 1rem;
+  --font-size-medium: 1.25rem;
+  --font-size-large: 1.5rem;
+  --font-size-x-large: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  margin-top: 6em;
+  margin-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+header {
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-gray-medium);
+}
+
+main {
+  height: 100%;
+  background-color: var(--color-gray-light);
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.card {
+  width: 100%;
+  padding: 2em;
+  background-color: var(--color-gray-white);
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-gray-medium);
+}
+
+.card h2 {
+  padding: .75em;
+  padding-left: 2em;
+  padding-right: 0;
+  margin-left: -2em;
+  margin-top: -1em;
+  background-color: var(--color-secondary-lighter);
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-secondary-darker);
+}
